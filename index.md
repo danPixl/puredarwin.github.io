@@ -2,7 +2,7 @@
 
 [Darwin](http://en.wikipedia.org/wiki/Darwin_%28operating_system%29) is the Open Source operating system from Apple that forms the basis for macOS, and PureDarwin is a community project to make Darwin more usable (some people think of it as the informal successor to OpenDarwin).
 
-One current goal of this project is to provide a useful bootable IMG and Virtual of Darwin 10.x
+One current goal of this project is to provide a useful bootable IMG and Virtual Machine of Darwin 10.x
 Another goal of this project is to provide additional documentation. [More](https://github.com/PureDarwin/PureDarwin/wiki/About)...
 
  
@@ -10,13 +10,13 @@ Another goal of this project is to provide additional documentation. [More](htt
 
 # Teaser the Darwin Community!
 
-## Here's a ScreenShot of Our Latest Build!
+## Here's a screenshot of Our Latest Build!
 ![](Screenshots/Screenshot-2018-03-02.png)
-##### It's all most there guys!!! Work in progress but it's going along and yes all built from OpenSource based on 10.13.3 Released Code.
+##### It's all most there guys!!! It's a work in progress but it's going along and all built from open source code based on 10.13.3.
 
 Documentation and quick hints
 -----------------------------
-Please see our [PureDarwin Wiki](https://github.com/PureDarwin/PureDarwin/wiki/) It would be very kind if you could fix the wiki as we have links that are broken as we p
+Please see our [PureDarwin Wiki](https://github.com/PureDarwin/PureDarwin/wiki/). It would be very kind if you could fix the wiki as we have links that are broken.
 
 See the [Changelog](https://github.com/PureDarwin/PureDarwin/wiki/_history) for recent updates of this Wiki.
 
@@ -28,14 +28,14 @@ Additionally, as an interim measure, a [version of PureDarwin Xmas](https://gith
 
 ## **Something to the Open Source Community!**
 
-### **Here's a [Guide](https://github.com/PureDarwin/Building-XNU-16.7-Kernel-Guide/) on Building XNU of the 16.7(10.12.6) Kernel!** 
+### **Here's a [Guide](https://github.com/PureDarwin/Building-XNU-16.7-Kernel-Guide/) on Building XNU of the 16.7 (10.12.6) Kernel!** 
 
 Status
 ------
 
-PureDarwin is currently working on AHCI and eMMC family/drivers for Darwin only they will not support/work on Apple's macOS. We have a PoC(Proof of Concept) of PureDarwin 2.2 qemu image that's based on Apple's open source code of [macOS 10.10.5](http://opensource.apple.com/release/os-x-10105/) that is only currently available to those who join our IRC channel #puredarwin on freenode. 
+PureDarwin is currently working on AHCI and eMMC family/drivers for Darwin only - they will not support/work on Apple's macOS. We have a PoC(Proof of Concept) of PureDarwin 2.2 qemu image that's based on Apple's open source code of [macOS 10.10.5](http://opensource.apple.com/release/os-x-10105/) that is only currently available to those who join our IRC channel #puredarwin on freenode. 
 
-Update: Hey, guys, we're still moving along we will be providing an SDK that is native of an Apple release on opensource.apple.com and a modified version that is PureDarwin targeted as we are working on XNU modified Kernel with some other BSD/POSIX features that don't require us to rely on Apple's Closed sources that they'll never release.
+Update: Hey, guys, we're still moving along we will be providing an SDK that is native of an Apple release on opensource.apple.com and a modified version that is PureDarwin targeted as we are working on XNU modified Kernel with some other BSD/POSIX features that don't require us to rely on Apple's proprietary code that they'll never release.
 
 We are looking for supporters/coders that can help bring about faster Development of PureDarwin while showing Apple that there is still a community of Open Source Darwin Supporters that would like to see more openness from them whether it be from them releasing Binary Drivers for our use as they once did or open source projects like libxpc/launchd again.
 
@@ -106,19 +106,9 @@ DarwinBuild project?
 DarwinBuild is one of PureDarwin‘s
 main upstream projects.
 
-What does the „Pure“ in PureDarwin
-stand for?
+What does the "Pure“ in PureDarwin mean?
 
-Pure as in beer! It means that we just use components specifically released
-by Apple for use with Darwin, as well as other Open Source components (coll
-ectively called „upstream code“). Specifically, it means that we do not
-use any components from macOS. It also means that we try to stay as close
-as possible to the „outside world“ as in macOS (e.g., regarding the choice
-of compilers, options, etc.). It does not
-mean, however, that we do not modify
-and add to the upstream code, to
-the extent that the respective licenses
-allow.
+Pure as in beer! It means that we just use components specifically released by Apple for use with Darwin, as well as other open source components (called "upstream code“). Specifically, it means that we do not use any components from macOS. It also means that we try to stay as close as possible to the "outside world“ as in macOS (e.g., regarding the choice of compilers, options, etc.). It does not mean, however, that we do not modify and add to the upstream code, to the extent that the respective licenses allow.
 
 How can I help PureDarwin?
 
